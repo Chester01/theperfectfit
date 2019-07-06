@@ -1,0 +1,1409 @@
+﻿/*----fonts---*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,500,900&display=swap&subset=hebrew');
+
+/*******************************************/
+
+/*body and container*/
+
+body {
+    direction: rtl;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+#container 
+{
+    width: 1366px;
+    height: auto;
+    padding: 0px !important;
+}
+
+/*******************************************/
+
+/*skip content links style*/
+
+.skipToContentLinks 
+{
+    margin: 0 50% 0 0;
+    padding: 0;
+    list-style-type: none;
+   
+}
+
+    .skipToContentLinks a 
+    {
+        position: absolute;
+        top: -50px;
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+
+    }
+
+
+        .skipToContentLinks a:focus {
+            top: 10px;
+        }
+
+/*******************************************/
+
+/*gender menu*/
+
+.secondMenuGender 
+{
+    margin:-52px 350px 0px 0px;
+    position:absolute;
+}
+
+.secondMenuGender ul li 
+{
+    display:inline-block;
+    float:right;
+}
+
+    .secondMenuGender ul li a 
+{
+        font-weight:900;
+        text-align: center;
+        text-decoration:none;
+        padding-top: 5px;
+        background-color: black;
+        color: white;
+        display: block;
+        width: 70px;
+        height: 35px;
+        -webkit-border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+        .secondMenuGender ul li a:hover 
+        {
+            opacity: 0.8;
+        }
+
+            .secondMenuGender ul li:nth-child(1) a 
+            {
+                background-color: #D74F4F;
+            }
+
+/*******************************************/
+
+/*navigation bar*/
+
+    header img 
+    {
+        width: 300px;
+        height: 100px;
+    }
+
+header 
+{
+    top:0;
+    right:0;
+    height: 120px;
+    width:1140px;
+    background-color:white;
+    border-bottom:1px solid black;
+    position:sticky;
+    z-index: 999;
+}
+
+.mainNav 
+{
+    position: absolute;
+    margin:-30px 540px 0px 0px;
+}
+
+    .mainNav > ul > li > a 
+    {
+        display: block;
+        text-align: center;
+        width: 150px;
+        height: 25px;
+        color: black;
+        text-decoration: none;
+    }
+
+        .mainNav > ul > li > a:hover 
+        {
+            border-bottom: solid 5px #D74F4F;
+        }
+
+    .mainNav ul li ul li a 
+    {
+        display: block;
+        text-align:center;
+        width: 150px;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .mainNav ul li ul 
+    {
+        display: none;
+        position: absolute;
+        list-style-type: none;
+        background-color: white;
+    }
+
+    .mainNav ul li:hover > ul 
+    {
+        display: block;
+        width: 150px;
+    }
+
+    .mainNav > ul > li > ul > li > ul 
+    {
+        right: 150px;
+        bottom: 95px;
+    }
+
+    .mainNav ul li ul li a:hover 
+    {
+        background-color: #D74F4F;
+        color: white;
+    }
+
+#logoHomePage a h1 
+{
+    margin-left: 416px;
+}
+
+/*******************************************/
+
+/*bread crums menu*/
+
+#breadCrumsMenu 
+{
+    width: 350px;
+    font-size: 10pt;
+}
+
+    #breadCrumsMenu ol li 
+    {
+        display: inline-block;
+    }
+
+        #breadCrumsMenu ol li a
+        {
+            color: black;
+        }
+
+/*******************************************/
+
+/*h1-h6*/
+
+section > h2 
+{
+    width: 1140px;
+    font-weight: 900;
+    border-collapse: collapse;
+    height: 50px;
+    margin:10px 0px;
+    padding-top: 5px;
+    border-bottom: solid 1px #D1D3D4;
+    border-top: solid 1px #D1D3D4;
+    text-align: center;
+}
+
+/*******************************************/
+
+/*carousel*/
+
+/*carousel arrows nav*/
+
+.carousel-control-prev-icon 
+{
+    background-image: url('../images/arrow-point-to-right.png');
+    background-color:black;
+}
+
+
+.carousel-control-next-icon 
+{
+    background-image: url('../images/arrow-point-to-left.png');
+    background-color: black;
+}
+
+/*******************************************/
+
+/*carousel caption*/
+
+.carousel-caption 
+{
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    width: 500px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-align: right;
+    margin: 10px;
+}
+
+#carouselExampleIndicators h2 
+{
+    font-weight: 900;
+    height: 30px;
+}
+
+.carousel-caption a
+{
+    position: relative;
+    top: 20px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 20pt;
+    font-weight: 900;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+    .carousel-caption a:hover
+    {
+        opacity:0.8;
+    }
+
+    /*******************************************/
+    /*carousel text positions*/
+    .TPF {
+        bottom: 200px;
+        right: 110px;
+    }
+
+.wedding
+{
+    bottom:200px;
+}
+
+.business
+{
+    bottom:30px;
+    right:600px;
+}
+
+.date 
+{
+    bottom:30px;
+}
+
+/*******************************************/
+
+/*carousel stop and play BTN*/
+
+#carouselButtons 
+{
+    margin:0px 10px 0px 100px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 998;
+}
+
+/*******************************************/
+
+/*style selection*/
+
+#styleFavClothes li 
+{
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+}
+
+#styleFavClothes li a 
+{
+    display:block;
+    border: 1px solid #D1D3D4;
+    width: 350px;
+    height: 450px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+    #styleFavClothes li a span 
+    {
+        display: block;
+        height: 150px;
+        text-align:center;
+        width: 150px;
+        margin: 150px 100px 0px 0px;
+        background-color: #D74F4F;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        color: white;
+        line-height: 150px;
+        font-weight: 900;
+        font-size: 16pt;
+        text-decoration: none;
+    }
+
+    #styleFavClothes li a:hover 
+    {
+        text-decoration:none;
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+
+    .item1 
+    {
+        background-image: url(../images/casual.png);
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: center;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+
+.item2 
+{
+    background-image: url(../images/vintage.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.item3 
+{
+    background-image: url(../images/boho.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.item4 
+{
+    background-image: url(../images/tomboy.jpg);
+    background-repeat: no-repeat;
+    background-size:300px;
+    background-position: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.item5 
+{
+    background-image: url(../images/gothic.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.item6 
+{
+    background-image: url(../images/hipster.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/*******************************************/
+
+/*misc*/
+
+#chosen 
+{
+    font-size: 14pt;
+    height: 50px;
+    margin-top: -15px;
+    width: 100px;
+}
+
+.alignCent
+{
+    text-align:center;
+}
+
+.CNA 
+{
+    cursor: not-allowed;
+}
+
+ol 
+{
+    padding: 0;
+}
+
+ul 
+{
+    padding: 0;
+}
+
+/*******************************************/
+
+/*footer*/
+
+footer 
+{
+    border-collapse: collapse;
+    width: 1140px;
+    height: 50px;
+    text-align: center;
+    border-top: 5px solid #D74F4F;
+}
+
+    footer a 
+    {
+        margin: 0px 10px 10px 10px;
+        display: inline-grid;
+        border:1px solid transparent;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        height: 30px;
+        border-collapse:collapse;
+        width: 200px;
+        font-size: 14pt;
+    }
+
+        footer a:hover {
+            text-decoration: none;
+            color: white;
+            background-color:#D74F4F;
+        }
+
+/*******************************************/
+
+/*content pages*/
+
+/*boho women*/
+
+#mainContentF > section:nth-child(1) p 
+{
+    color: white;
+    background-color: #D74F4F;
+    height: 400px;
+    width: 245px;
+    padding: 15px;
+}
+
+#mainContentF > section:nth-child(2) 
+{
+    position: relative;
+    margin: -416px 842.5px 0px 0px;
+    background-color: #D74F4F;
+    padding: 15px;
+    width: 295px;
+    height: 200px;
+    -webkit-border-radius: 10px 0px 0 0;
+    border-radius: 0px 0px 0 50px;
+    z-index: 10;
+}
+
+#mainContentF > section:nth-child(2) h3 
+{
+    color:white;
+    font-size:14pt;
+}
+
+    #mainContentF > section:nth-child(2) h3:first-line
+    {
+        font-size:36pt;
+    }
+
+    #mainContentF > section:nth-child(2) ul 
+    {
+        color: white;
+        list-style: none;
+        font-size: 10pt;
+    }
+
+#bohowomen1 
+{
+    background-color: gray;
+    margin: -200px 243.5px 0px 0px;
+    height: 400px;
+    background-image: url(../images/boho_women1.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    background-size: contain;
+    z-index: 1;
+}
+
+#mainContentF section h1 
+{
+    background-position: center;
+    height: 500px;
+    width: 1140px;
+    background-image: url(../images/boho_head_women.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:0px;
+}
+
+    #mainContentF section h1 span 
+    {
+        text-align: center;
+        display: block;
+        width: 250px;
+        position: relative;
+        top: 50px;
+        height: 70px;
+        background-color: #D74F4F;
+        color: white;
+        font-weight: 900;
+        -webkit-border-radius: 10px 0 0 10px;
+        border-radius: 10px 0 0 10px;
+        line-height: 70px;
+    }
+
+#mainContentF > section:nth-child(4) > section 
+{
+    display: inline-grid;
+    border: 1px solid #D1D3D4;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0px 50px 15px 0px;
+}
+
+    #mainContentF > section:nth-child(4) > section h3 
+    {
+        width: 299px;
+        height: 299px;
+        margin: 0px;
+        border: 1px solid #D1D3D4;
+        -webkit-border-radius: 0 10px 10px 0;
+        border-radius: 0 10px 10px 0;
+        border-collapse: collapse;
+    }
+
+    #mainContentF > section:nth-child(4) > section p
+    {
+        width:185px;
+        height:300px;
+        margin:-285px 300px 0px 0px;
+        padding:0px 10px 0px 10px;
+        font-size:12pt;
+        line-height:18px;
+    }
+
+    #mainContentF > section:nth-child(4) > section h3 span 
+    {
+        display: block;
+        position: relative;
+        text-align: center;
+        height: 40px;
+        width: 200px;
+        color: white;
+        font-weight: 900;
+        background-color: rgba(214,79,79,0.8);
+        -webkit-border-radius: 0 10px 0 10px;
+        border-radius: 0 10px 0 10px;
+    }
+
+    #mainContentF > section:nth-child(4) h2
+    {
+        font-size:18pt;
+    }
+
+        #mainContentF > section:nth-child(4) h2 span 
+        {
+            color: #D74F4F;
+        }
+
+
+#mainContentF > section:nth-child(4) > section #bohoW1 
+{
+    background-image: url(../images/boho_women5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainContentF > section:nth-child(4) > section #bohoW2 
+{
+    background-image: url(../images/boho_women3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainContentF > section:nth-child(4) > section #bohoW3 
+{
+    background-image: url(../images/boho_women2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x:-90px;
+}
+
+#mainContentF > section:nth-child(4) > section #bohoW4 
+{
+    background-image: url(../images/boho_women4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-50px;
+}
+
+/*******************************************/
+
+/*boho men*/
+
+#mainContentM > section:nth-child(1) p 
+{
+    color: white;
+    background-color: black;
+    height: 400px;
+    width: 245px;
+    padding: 15px;
+}
+
+#mainContentM > section:nth-child(2) 
+{
+    position: relative;
+    margin: -416px 842.5px 0px 0px;
+    background-color: black;
+    padding: 15px;
+    width: 295px;
+    height: 200px;
+    -webkit-border-radius: 10px 0px 0 0;
+    border-radius: 0px 0px 0 50px;
+    z-index: 10;
+}
+
+    #mainContentM > section:nth-child(2) h3 
+    {
+        color: white;
+        font-size: 14pt;
+    }
+
+        #mainContentM > section:nth-child(2) h3:first-line 
+        {
+            font-size: 36pt;
+        }
+
+    #mainContentM > section:nth-child(2) ul 
+    {
+        color: white;
+        list-style: none;
+        font-size: 10pt;
+    }
+
+#bohomen1 {
+    background-color: gray;
+    margin: -200px 243px 0px 0px;
+    height: 400px;
+    background-image: url(../images/boho_men1.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    background-size: contain;
+    z-index: 1;
+}
+
+#mainContentM section h1 
+{
+    background-position: center;
+    height: 500px;
+    width: 1140px;
+    background-image: url(../images/boho_head_men.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    background-position:top;
+}
+
+    #mainContentM section h1 span 
+    {
+        text-align: center;
+        display: block;
+        width: 250px;
+        position: relative;
+        top: 50px;
+        height: 70px;
+        background-color: black;
+        color: white;
+        font-weight: 900;
+        -webkit-border-radius: 10px 0 0 10px;
+        border-radius: 10px 0 0 10px;
+        line-height: 70px;
+    }
+
+#mainContentM > section:nth-child(4) > section 
+{
+    display: inline-grid;
+    border: 1px solid #D1D3D4;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0px 50px 15px 0px;
+}
+
+    #mainContentM > section:nth-child(4) > section h3 
+    {
+        width: 299px;
+        height: 299px;
+        margin: 0px;
+        border: 1px solid #D1D3D4;
+        -webkit-border-radius: 0 10px 10px 0;
+        border-radius: 0 10px 10px 0;
+        border-collapse: collapse;
+    }
+
+    #mainContentM > section:nth-child(4) > section p 
+    {
+        width: 185px;
+        height: 300px;
+        margin: -285px 300px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        font-size: 12pt;
+        line-height: 18px;
+    }
+
+    #mainContentM > section:nth-child(4) > section h3 span 
+    {
+        display: block;
+        position: relative;
+        text-align: center;
+        height: 40px;
+        width: 200px;
+        color: white;
+        font-weight: 900;
+        background-color: rgba(0,0,0,0.8);
+        -webkit-border-radius: 0 10px 0 10px;
+        border-radius: 0 10px 0 10px;
+    }
+
+#mainContentM > section:nth-child(4) h2 
+{
+    font-size: 18pt;
+}
+
+    #mainContentM > section:nth-child(4) h2 span 
+    {
+        color: #D74F4F;
+    }
+
+
+#mainContentM > section:nth-child(4) > section #bohoM1 
+{
+    background-image: url(../images/boho_men2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-30px;
+}
+
+#mainContentM > section:nth-child(4) > section #bohoM2 
+{
+    background-image: url(../images/boho_men4.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:500px;
+    background-position-y:-300px;
+}
+
+#mainContentM > section:nth-child(4) > section #bohoM3 
+{
+    background-image: url(../images/boho_men5.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:500px;
+}
+
+#mainContentM > section:nth-child(4) > section #bohoM4 
+{
+    background-image: url(../images/boho_men3.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position:top;
+}
+
+/*******************************************/
+
+/*day wedding women*/
+
+#mainContentF2 section h1 
+{
+    background-position: center;
+    height: 500px;
+    width: 1140px;
+    background-image: url(../images/wed_head_women.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+    #mainContentF2 section h1 span 
+    {
+        text-align: center;
+        display: block;
+        width: 250px;
+        position: relative;
+        top: 50px;
+        height: 70px;
+        background-color: #D74F4F;
+        color: white;
+        font-weight: 900;
+        -webkit-border-radius: 10px 0 0 10px;
+        border-radius: 10px 0 0 10px;
+        line-height: 70px;
+    }
+
+#mainContentF2 > section:nth-child(2) 
+{
+    color: white;
+    background-color: #D74F4F;
+    height: 400px;
+    width: 245px;
+    padding: 5px 20px 15px 15px;
+}
+
+#mainContentF2 > section:nth-child(2) h3:first-line 
+{
+    font-size: 36pt;
+}
+
+#wedwomen1 
+{
+    background-color: gray;
+    margin: -400px 243px 0px 0px;
+    height: 400px;
+    background-image: url(../images/wed_women2.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    background-size: contain;
+    z-index: 1;
+}
+
+#mainContentF2 > section:nth-child(4) 
+{
+    margin: -400px 842.5px 285px 0px;
+    background-color: #D74F4F;
+    padding: 15px;
+    color:white;
+    width: 295px;
+    height: 130px;
+    -webkit-border-radius: 10px 0px 0 0;
+    border-radius: 0px 0px 0 50px;
+    z-index: 10;
+}
+
+#mainContentF2 > section:nth-child(5) > section {
+    display: inline-grid;
+    border: 1px solid #D1D3D4;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0px 50px 15px 0px;
+}
+
+    #mainContentF2 > section:nth-child(5) > section h3 {
+        width: 299px;
+        height: 299px;
+        margin: 0px;
+        border: 1px solid #D1D3D4;
+        -webkit-border-radius: 0 10px 10px 0;
+        border-radius: 0 10px 10px 0;
+        border-collapse: collapse;
+    }
+
+    #mainContentF2 > section:nth-child(5) > section p 
+    {
+        width: 185px;
+        height: 300px;
+        margin: -285px 300px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        font-size: 12pt;
+        line-height: 18px;
+    }
+
+    #mainContentF2 > section:nth-child(5) > section h3 span 
+    {
+        display: block;
+        position: relative;
+        text-align: center;
+        height: 40px;
+        width: 200px;
+        color: white;
+        font-weight: 900;
+        background-color: rgba(214,79,79,0.8);
+        -webkit-border-radius: 0 10px 0 10px;
+        border-radius: 0 10px 0 10px;
+    }
+
+#mainContentF2 > section:nth-child(5) > section #wedW1 
+{
+    background-image: url(../images/wed_women_men.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-80px;
+}
+
+#mainContentF2 > section:nth-child(5) > section #wedW2 
+{
+    background-image: url(../images/wed_women3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-100px;
+}
+
+#mainContentF2 > section:nth-child(5) > section #wedW3 
+{
+    background-image: url(../images/wed_women1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainContentF2 > section:nth-child(5) > section #wedW4 
+{
+    background-image: url(../images/wed_women4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-30px;
+}
+
+/*******************************************/
+
+/*day wedding men*/
+
+#mainContentM2 section h1 {
+    background-position: center;
+    height: 500px;
+    width: 1140px;
+    background-image: url(../images/wed_head_men.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+    #mainContentM2 section h1 span 
+    {
+        text-align: center;
+        display: block;
+        width: 250px;
+        position: relative;
+        top: 50px;
+        height: 70px;
+        background-color: black;
+        color: white;
+        font-weight: 900;
+        -webkit-border-radius: 10px 0 0 10px;
+        border-radius: 10px 0 0 10px;
+        line-height: 70px;
+    }
+
+#mainContentM2 > section:nth-child(2) 
+{
+    color: white;
+    background-color: black;
+    height: 400px;
+    width: 245px;
+    padding: 5px 20px 15px 15px;
+}
+
+    #mainContentM2 > section:nth-child(2) h3:first-line 
+    {
+        font-size: 36pt;
+    }
+
+#wedmen1 
+{
+    background-color: gray;
+    margin: -400px 243px 0px 0px;
+    height: 400px;
+    background-image: url(../images/wed_men3.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    background-size: contain;
+    z-index: 1;
+}
+
+#mainContentM2 > section:nth-child(4) 
+{
+    margin: -400px 842.5px 285px 0px;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    width: 295px;
+    height: 130px;
+    -webkit-border-radius: 10px 0px 0 0;
+    border-radius: 0px 0px 0 50px;
+    z-index: 10;
+}
+
+#mainContentM2 > section:nth-child(5) > section 
+{
+    display: inline-grid;
+    border: 1px solid #D1D3D4;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0px 50px 15px 0px;
+}
+
+    #mainContentM2 > section:nth-child(5) > section h3 
+    {
+        width: 299px;
+        height: 299px;
+        margin: 0px;
+        border: 1px solid #D1D3D4;
+        -webkit-border-radius: 0 10px 10px 0;
+        border-radius: 0 10px 10px 0;
+        border-collapse: collapse;
+    }
+
+    #mainContentM2 > section:nth-child(5) > section p 
+    {
+        width: 185px;
+        height: 300px;
+        margin: -285px 300px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        font-size: 12pt;
+        line-height: 18px;
+    }
+
+    #mainContentM2 > section:nth-child(5) > section h3 span 
+    {
+        display: block;
+        position: relative;
+        text-align: center;
+        height: 40px;
+        width: 200px;
+        color: white;
+        font-weight: 900;
+        background-color: rgba(0,0,0,0.8);
+        -webkit-border-radius: 0 10px 0 10px;
+        border-radius: 0 10px 0 10px;
+    }
+
+#mainContentM2 > section:nth-child(5) > section #wedM1 
+{
+    background-image: url(../images/wed_women_men.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -80px;
+}
+
+#mainContentM2 > section:nth-child(5) > section #wedM2 
+{
+    background-image: url(../images/wed_men2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -100px;
+}
+
+#mainContentM2 > section:nth-child(5) > section #wedM3 
+{
+    background-image: url(../images/wed_men4.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position:left -50px center;
+    background-position-y:-10px;
+}
+
+#mainContentM2 > section:nth-child(5) > section #wedM4 {
+    background-image: url(../images/wed_men1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -50px;
+}
+/*******************************************/
+
+/*contact us*/
+
+#containerContact section:nth-child(3) 
+{
+    display: block;
+    color: white;
+    margin:15px 0px 0px 0px;
+    padding: 15px;
+    background-color: #D74F4F;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+#containerContact h1
+{
+    text-align: center;
+    font-size: 36pt;
+}
+
+#mainContent p {
+    font-size: 18pt;
+    text-align: center;
+}
+
+#containerContact form 
+{
+    padding: 15px;
+    border: 1px solid #D1D3D4;
+    border-top:none;
+    margin-bottom:15px;
+}
+
+/*******************************************/
+
+/*about us*/
+
+#logo
+{
+    margin:-250px 700px 0px 0px;
+    text-align:center;
+    display:block;
+    width:300px;
+    height:200px;
+    background-image:url(../images/hit_logo.png);
+    background-repeat:no-repeat;
+    background-size:250px;
+    background-position:center;
+    background-position-y:20px;
+}
+
+#mainContentAbout section:nth-child(5) ul
+{
+    list-style-image:url(../images/hanger_small_black.png);
+}
+
+#mainContentAbout img {
+    width: 150px;
+    height: 50px;
+}
+
+#mainContentAbout section:nth-child(1) p 
+{
+    background-color: #D74F4F;
+    padding: 15px;
+    display: block;
+    color: white;
+    font-size: 16pt;
+}
+
+#mainContentAbout section:nth-child(2) 
+{
+    margin: 0px 0px 0px 0px;
+    height:420px;
+    padding: 15px;
+    border: 1px solid #D1D3D4;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#mainContentAbout section ul, ol
+{
+    margin-right:15px;
+}
+
+#students li
+{
+    display:inline-block;
+}
+
+    #students li a 
+    {
+        color:black;
+        text-align: center;
+        line-height: 450px;
+        display: block;
+        border: 10px solid transparent;
+        height: 200px;
+        width: 200px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    #students li a:hover 
+    {
+        border: 10px solid #D74F4F;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+    }
+
+        #may
+        {
+            background-image:url(../images/may.jpeg);
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+
+#guy 
+{
+    background-image: url(../images/guy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ori {
+    background-image: url(../images/ori.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#mainContentAbout section:nth-child(3) 
+{
+    margin: 0px 0px 0px 0px;
+    padding: 15px;
+    border: 1px solid #D1D3D4;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#mainContentAbout section:nth-child(4)
+{
+    margin: 0px 0px 0px 0px;
+    padding: 15px;
+    border: 1px solid #D1D3D4;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#mainContentAbout section:nth-child(5) 
+{
+    margin: 0px 0px 10px 0px;
+    padding: 15px;
+    border: 1px solid #D1D3D4;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#mainContentAbout h3 
+{
+    display:block;
+    width:auto;
+    color:white;
+    text-align:center;
+    background-color: #D74F4F;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#mainContentAbout section h1 
+{
+    background-position: center;
+    height: 200px;
+    width: 1140px;
+    background-image: url(../images/clothes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+    #mainContentAbout section h1 span 
+    {
+        text-align: center;
+        display: block;
+        width: 250px;
+        position: relative;
+        top: 50px;
+        height: 70px;
+        background-color: #D74F4F;
+        color: white;
+        font-weight: 900;
+        -webkit-border-radius: 10px 0 0 10px;
+        border-radius: 10px 0 0 10px;
+        line-height: 70px;
+    }
+
+/*******************************************/
+
+/*web map*/
+
+#mainContentMap
+{
+    background-image:url(../images/fashion_web3.jpg);
+    background-size:cover;
+}
+
+#mainContentMap h1 
+{
+    text-align: center;
+    display: block;
+    width: 250px;
+    top: 50px;
+    height: 70px;
+    margin: 15px 0px;
+    background-color: #D74F4F;
+    color: white;
+    font-weight: 900;
+    -webkit-border-radius: 0px 0 0 10px;
+    border-radius: 0px 0 0 10px;
+    line-height: 70px;
+}
+
+#mainContentMap ol 
+{
+    color: white;
+    background-color: #D74F4F;
+    opacity:0.8;
+    width: auto;
+    padding: 25px;
+    display: inline-grid;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    list-style:none;
+}
+
+    #mainContentMap ul li 
+    {
+        list-style: url(../images/hanger_small_white.png);
+        list-style-position: inside;
+    }
+
+
+#mainContentMap a {
+    color: white;
+}
+
+#mainContentMap ol span 
+{
+    font-size:14pt;
+    font-weight: 900
+}
+
+#mainContentMap .medium
+{
+    font-weight:500;
+}
+
+.bcmwm
+{
+    bottom:8px;
+    position:relative;
+}
+
+/*******************************************/
+
+/*interactive*/
+
+iframe
+{
+    border:none;
+height:600px;
+/*width:942px;*/
+width:1140px;
+}
+
+#interactivep
+{
+    position:unset;
+}
+
+/*******************************************/

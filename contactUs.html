@@ -1,0 +1,146 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>The Perfect Fit- צור קשר</title>
+    <link rel="icon" type="image/png" href="images/hanger-01.png">
+    <meta name="description" content="The Perfect Fit A website that offers guidelines, tips and suggestions - how to dress according to your style and / or according to different events.We give you a glimpse into the world of styling. All you have to do is simply choose which offer to take. 
+Please contact us if you have a question or complaint and we will respond within 24 hours." />
+    <meta name="keywords" content="contact us,phone, email, comunicat, fashion, style, hit project, outfits, dress, clothes, wear,The Perfect Fit, styling, hit" />
+    <meta name="author" content="The Perect Fit team - Ori Alon, Guy Hovav, May Elazar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/JavaScript.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+            type="text/javascript"></script>
+
+</head>
+<body onload="tab_nav()">
+    <div id="containerContact" class="container">
+
+        <!---------------------- main menu --------------------->
+        <header>
+
+            <!-- LOGO -->
+
+            <a id="logoHomePage" href="home.html"><img src="images/LOGO-04.png" alt="לוגו THE PERFCT FIT ,הדרך הקלה למצוא את הסטייל שלך" /></a>
+
+            <!-- skip to main content links -->
+
+            <ul class="skipToContentLinks">
+                <li> <a href="#mainContent">דלג לתוכן עמוד</a></li>
+            </ul>
+
+            <nav class="mainNav" aria-label="main navigation" role="navigation">
+                <ul role="menubar" class="nav justify-content-lg-end">
+
+                    <li role="menuitem">
+                        <a href="#">כל יום אירוע אחר</a>
+                        <ul>
+                            <li>
+                                <a href="#">חתונות</a>
+                                <ul aria-hidden="false" role="menu">
+                                    <li role="menuitem" class="subNav"><a href="dayWeddingWomen.html" aria-haspopup="true" aria-expanded="false">חתונות יום</a></li>
+                                    <li role="menuitem" class="subNav"><a class="CNA" href="#" aria-haspopup="true" aria-expanded="false">חתונות ערב</a></li>
+                                </ul>
+                            </li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">דייט</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">חג</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">פגישה עסקית</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">יום יום</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">נשף</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">מה הסגנון שלך?</a>
+                        <ul aria-hidden="false" role="menu">
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">קז'ואל</a></li>
+                            <li role="menuitem" class="subNav"><a href="bohoWomen.html">בוהמי</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">טום בוי</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">וינטג'</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">גותי</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">היפסטר</a></li>
+                        </ul>
+                    </li>
+                    <li role="menuitem"> <a href="interactive.html">סטייל בהתאמה אישית</a></li>
+                    <li role="menuitem"> <a class="CNA" href="#">כדאי לדעת</a></li>
+                </ul>
+            </nav>
+
+
+            <!-- breadcrumbs menu -->
+
+            <nav id="breadCrumsMenu" role="navigation" aria-label="bread crombs menu">
+                <ol>
+                    <li role="menuitem"><a href="home.html">דף הבית ></a></li>
+                    <li role="menuitem"><a href="contactUs.html">צור קשר</a></li>
+                </ol>
+            </nav>
+
+
+        </header>
+
+        <!-- introduction to the form -->
+
+        <section id="mainContent">
+
+            <h1 aria-label="צור קשר עם צוות האתר של the perfect fit" tabindex="0">דברו איתנו!</h1>
+
+            <p tabindex="0"> אנחנו פה כדי לשמוע אתכם. אם יש לכם שאלות, בקשות, הערות או הארות, מלאו את הטופס ואנחנו נחזור אליכם</p>
+
+        </section>
+
+        <!-- form -->
+
+
+        <form action="/" method="post">
+            <input type="hidden" id="myEmail" name="name" value="oriallon26@gmail.com">
+            <label for="FulltName">
+                איך קוראים לך?
+                <input type="text" id="fullname" placeholder="הכנס את שמך כאן" aria-label="אנא הקלד את שמך" required aria-required="true" />
+            </label>
+            <label for="myMS">
+                מה את/ה רוצה להגיד לנו?
+                <textarea id="myMS" placeholder="הקלד את הודעתך כאן" aria-label="הקלד את הודעתך כאן" required aria-required="true"></textarea>
+            </label>
+            <label for="mySelect">
+                איך ליצור איתך קשר?
+                <select id="mySelect" aria-label="איך ליצור איתך קשר?" required aria-required="true">
+                    <option value="1" selected>בחר</option>
+                    <option value="1" aria-label="אופציה 1 טלפון">טלפון </option>
+                    <option value="2" aria-label="אופציה 2 אימייל">אימייל</option>
+                </select>
+                <label for="contactUser">
+                    איפה נתפוס אותך?
+                    <input type="text" id="contactUser" placeholder="אנא הכנס פרטים ליצירת קשר" aria-label="אנא הכנס פרטים ליצירת קשר" required aria-required="true" />
+                </label>
+            </label>
+
+            <input type="submit" id="Send" value="שלח" aria-label="שלח טופס">
+            <div id="feedback" aria-label="הטופס נשלח "></div>
+        </form>
+
+
+        <!--footer-->
+
+        <footer>
+            <a href="aboutUs.html">מי אנחנו? - אודות</a>
+            <a href="contactUs.html">צור קשר</a>
+            <a href="webMap.html">מפת האתר</a>
+            <p aria-label="כל הזכויות שמורות לצוות האתר">כל הזכויות שמורות לצוות The Perfect Fit ©</p>
+        </footer>
+
+    </div>
+</body>
+</html>

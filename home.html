@@ -1,0 +1,178 @@
+﻿
+<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>The Perfect Fit- דף הבית</title>
+    <link rel="icon" type="image/png" href="images/hanger-01.png">
+    <meta name="description" content="The Perfect Fit A website that offers guidelines, tips and suggestions - how to dress according to your style and / or according to different events.We give you a glimpse into the world of styling. All you have to do is simply choose which offer to take. " />
+    <meta name="keywords" content="home page, fashion, style, hit project, events, outfits, dress, clothes, wear,The Perfect Fit, styling, girls, women,boys, men, boho, wedding, date, day,night, wedding, holiday, every day,casual,vintage,tomboy, goth,Business" />
+    <meta name="author" content="The Perect Fit team - Ori Alon, Guy Hovav, May Elazar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/18838bc31d.js"></script>
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/JavaScript.js"></script>
+
+</head>
+
+<body onload="tab_nav()" >
+
+    <div id="container" class="container">
+
+        <header>
+
+            <!-- LOGO -->
+            <a id="logoHomePage" href="home.html"><h1 id="LogoHomePage"><img src="images/LOGO-04.png" alt="לוגו THE PERFCT FIT ,הדרך הקלה למצוא את הסטייל שלך" /></h1></a>
+
+            <!-- skip to main content links -->
+
+            <ul class="skipToContentLinks">
+                <li> <a href="#carouselExampleIndicators">דלג לתוכן עמוד</a></li>
+            </ul>
+
+            <!---------------------- main menu --------------------->
+
+            <nav class="mainNav" aria-label="main navigation" role="navigation">
+                <ul role="menubar" class="nav justify-content-lg-end">
+
+
+
+
+                    <li role="menuitem">
+                        <a href="#">כל יום אירוע אחר</a>
+                        <ul>
+                            <li>
+                                <a href="#">חתונות</a>
+                                <ul aria-hidden="false" role="menu">
+                                    <li role="menuitem" class="subNav"><a href="dayWeddingWomen.html" aria-haspopup="true" aria-expanded="false">חתונות יום</a></li>
+                                    <li role="menuitem" class="subNav"><a class="CNA" href="#" aria-haspopup="true" aria-expanded="false">חתונות ערב</a></li>
+                                </ul>
+                            </li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">דייט</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">חג</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">פגישה עסקית</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">יום יום</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">נשף</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">מה הסגנון שלך?</a>
+                        <ul aria-hidden="false" role="menu">
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">קז'ואל</a></li>
+                            <li role="menuitem" class="subNav"><a href="bohoWomen.html">בוהמי</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">טום בוי</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">וינטג'</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">גותי</a></li>
+                            <li role="menuitem" class="subNav"><a class="CNA" href="#">היפסטר</a></li>
+                        </ul>
+                    </li>
+                    <li role="menuitem"> <a href="interactive.html">סטייל בהתאמה אישית</a></li>
+                    <li role="menuitem"> <a class="CNA" href="#">כדאי לדעת</a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <!------------------------- carousela------------- -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" aria-roledescription="carousel"
+             aria-label="Highlighted television shows">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+            </ol>
+            <div class="carousel-inner">
+
+                <div id="carouselButtons">
+                    <button id="pauseButton" type="button" class="btn btn-default btn-xs" aria-label="carousel Stop Buttons" tabindex="0">
+                        <i class="fas fa-stop" aria-hidden="false"></i>
+                    </button>
+                    <button id="playButton" type="button" class="btn btn-default btn-xs" aria-label="carousel Play Buttons" tabindex="0">
+                        <i class="fas fa-play" aria-hidden="false"></i>
+                    </button>
+                </div>
+
+
+                <div class="carousel-item active" aria-label="1 of 4" aria-roledescription="slide">
+                    <div class="carousel-caption TPF">
+                        <h2 tabindex="0"> The Perfect Fit</h2>
+                        <p tabindex="0">מחפשים את הבגד המושלם אבל לא מוצאים?  <br /> אנחנו כאן כדי לכוון ולתת לך טיפים ללבוש שמתאים במיוחד לך</p>
+                    </div>
+                    <img class="d-block w-100" src="images/1.jpg" alt="">
+                </div>
+                <div class="carousel-item" aria-label="2 of 4" aria-roledescription="slide">
+                    <div class="carousel-caption wedding">
+                        <h2 tabindex="0">מתקרב הקיץ ויש חתונה ביומן?</h2>
+                        <p tabindex="0">אנחנו כאן כדי לייעץ, לעזור ולכוון אותך על מנת לבחור את הבגד המושלם!</p>
+                        <a href="dayWeddingWomen.html" tabindex="0" role="button" id="toggle" aria-pressed="false" aria-label="חתונות יום"> חתונות יום</a>
+                    </div>
+                    <img class="d-block w-100" src="images/2.jpg" alt="">
+                </div>
+                <div class="carousel-item" aria-label="3 of 4" aria-roledescription="slide">
+                    <div class="carousel-caption business">
+                        <h2 tabindex="0"> בדרך לפגישה חשובה?</h2>
+                        <p tabindex="0">ממהרים ולא מוצאים את בגד שיעזור לכם לסגור את העסקה? לחצו על הכפתור - לבוש עסקי</p>
+                        <a href="#" class="CNA" tabindex="0" role="button" id="toggle" aria-pressed="false" aria-label="לבוש עסקי"> לבוש עסקי</a>
+                    </div>
+                    <img class="d-block w-100" src="images/3.jpg" alt="">
+                </div>
+                <div class="carousel-item" aria-label="4 of 4" aria-roledescription="slide">
+                    <div class="carousel-caption date" aria-label="carousel caption">
+                        <h2 tabindex="0"> קבעת דייט?</h2>
+                        <p tabindex="0"> לחץ על כפתור הדייט כדי לקבל טיפים ללבוש שישאיר הכי הרבה רושם!</p>
+                        <a href="#" class="CNA" tabindex="0" role="button" id="toggle" aria-pressed="false" aria-label="דייט"> דייט</a>
+                    </div>
+                    <img class="d-block w-100" src="images/4.jpg" alt="">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" aria-label="prev slide" data-slide="prev">
+                <span role="button" aria-label="prev slide" data-slide="prev" tabindex="0" class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" aria-label="next slide" data-slide="next">
+                <span role="button" aria-label="next slide" data-slide="next" tabindex="0" class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+
+
+
+        <section class="alignCent">
+            <h2>איזה סגנון אתם הכי אוהבים?</h2>
+            <ul id="styleFavClothes">
+                <li><a class="item1 CNA" href="#"><span>סגנון קז'ואל</span></a></li>
+                <li><a class="item2 CNA" href="#"><span>סגנון וינטאג'</span></a></li>
+                <li><a class="item3" href="bohoWomen.html"><span>סגנון בוהמי</span></a></li>
+                <li><a class="item4 CNA" href="#"><span>סגנון טום בוי</span></a></li>
+                <li><a class="item5 CNA" href="#"><span>סגנון גותי</span></a></li>
+                <li><a class="item6 CNA" href="#"><span>סגנון היפסטר</span></a></li>
+
+            </ul>
+        </section>
+
+        <footer>
+            <a href="aboutUs.html">מי אנחנו? - אודות</a>
+            <a href="contactUs.html">צור קשר</a>
+            <a href="webMap.html">מפת האתר</a>
+            <p aria-label="כל הזכויות שמורות לצוות האתר">כל הזכויות שמורות לצוות The Perfect Fit ©</p>
+        </footer>
+
+    </div>
+</body>
+</html>
